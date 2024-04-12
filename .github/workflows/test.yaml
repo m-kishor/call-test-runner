@@ -1,0 +1,12 @@
+name: Greet the World
+
+on: [push]
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Hello World step
+      uses: m-kishor/ai-automation-engineer@v1
