@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Hello World step
-      uses: m-kishor/ai-automation-engineer@v1
+      uses: m-kishor/test-runner@v1
